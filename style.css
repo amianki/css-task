@@ -1,0 +1,53 @@
+div.yellowContainer{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    background-color: rgb(250, 232, 72);
+    padding-top: 50px;
+   
+}
+
+div.circleBody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.circle{
+    display: flex;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    color: rgb(98, 86, 86);
+    background-color: rgb(182, 170, 11);
+    text-align: center;
+    position: relative;
+    flex-direction: column;
+}
+
+div.pinkContainer{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 60px; 
+    background-color: rgb(246, 53, 85);
+    
+}
+div.triangle{
+    
+    width: 0px;
+    height: 50%;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-top: 40px solid rgb(250, 232, 72);
+        
+        
+       
+}
+
